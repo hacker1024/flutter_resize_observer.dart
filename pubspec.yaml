@@ -1,7 +1,7 @@
-name: resize_observer
+name: flutter_resize_observer
 description: A Flutter widget that calls a callback when its child is resized.
 version: 0.1.0
-homepage: https://github.com/hacker1024/resize_observer.dart
+homepage: https://github.com/hacker1024/flutter_resize_observer.dart
 
 environment:
   sdk: ">=2.17.0 <3.0.0"
