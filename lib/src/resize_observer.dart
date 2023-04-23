@@ -7,13 +7,10 @@ class ResizeObserver extends SingleChildRenderObjectWidget {
   final ResizeCallback onResized;
 
   const ResizeObserver({
-    Key? key,
+    super.key,
     required this.onResized,
-    Widget? child,
-  }) : super(
-          key: key,
-          child: child,
-        );
+    super.child,
+  });
 
   @override
   RenderObject createRenderObject(BuildContext context) =>
