@@ -1,9 +1,12 @@
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
 
+/// A callback to be invoked when the size of the observed widget changes.
 typedef ResizeCallback = void Function(Size oldSize, Size newSize);
 
+/// A widget that calls a callback when the size of its [child] changes.
 class ResizeObserver extends SingleChildRenderObjectWidget {
+  /// The callback to be called when the size of [child] changes.
   final ResizeCallback onResized;
 
   const ResizeObserver({
